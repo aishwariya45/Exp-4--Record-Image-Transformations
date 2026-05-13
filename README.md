@@ -74,8 +74,14 @@ plt.imshow(cv2.cvtColor(translated_image, cv2.COLOR_BGR2RGB))  # Display the tra
 plt.title("Translated Image")  
 plt.axis('off') 
 ```
+
+
 <img width="762" height="484" alt="image" src="https://github.com/user-attachments/assets/fa68481c-91fe-4e7f-826a-0b907a5d2b39" />
+
+
+
 Image Scaling
+
 
 ```
 fx, fy = 5.0, 2.0  # Scaling factors (1.5x scaling for both width and height)
@@ -86,7 +92,10 @@ plt.axis('off')
 ```
 
 
+
 <img width="768" height="257" alt="image" src="https://github.com/user-attachments/assets/adcdf0b1-3823-4060-928f-bdfd0951945c" />
+
+
 Image Shearing
 
 ```
@@ -99,7 +108,9 @@ plt.axis('off')
 ```
   <img width="786" height="493" alt="image" src="https://github.com/user-attachments/assets/1a307597-ca85-417e-94ec-4716da6cad4a" />
 
-  Image Reflection
+
+
+Image Reflection
 
   ``` 
 reflected_image = cv2.flip(image, 2)  # Flip the image horizontally (1 means horizontal flip)
